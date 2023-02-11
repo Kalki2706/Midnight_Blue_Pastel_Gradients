@@ -1,0 +1,17 @@
+body {
+  margin: 0px;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+.home_page {
+  margin: 0px;
+  padding: 0px;
+  width: 1920px;
+  height: 1080px;
+  width: 100%;
+  background-color: rgb(6, 0, 46);
+  background-attachment: fixed;
+}
