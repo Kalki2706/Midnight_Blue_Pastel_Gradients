@@ -30,7 +30,6 @@ body::-webkit-scrollbar {
 .first_page,
 .third_page,
 .fifth_page {
-  background-image: url(./images/bg_1.png);
   background-attachment: scroll;
 }
 
@@ -38,4 +37,16 @@ body::-webkit-scrollbar {
 .fourth_page,
 .sixth_page {
   background-attachment: scroll;
+}
+
+.first_page {
+  background-image: url(./images/bg_1.png);
+}
+
+.third_page {
+  background-image: url(./images/bg_2.png);
+}
+
+.fifth_page {
+  background-image: url(./images/bg_3.png);
 }
