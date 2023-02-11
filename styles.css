@@ -27,29 +27,15 @@ body::-webkit-scrollbar {
   background-attachment: fixed;
 }
 
-.first_page {
+.first_page,
+.third_page,
+.fifth_page {
   background-image: url(./images/bg_1.png);
   background-attachment: scroll;
 }
 
-.second_page {
-  background-attachment: scroll;
-}
-
-.third_page {
-  background-image: url(./images/bg_2.png);
-  background-attachment: scroll;
-}
-
-.fourth_page {
-  background-attachment: scroll;
-}
-
-.fifth_page {
-  background-image: url(./images/bg_3.png);
-  background-attachment: scroll;
-}
-
+.second_page,
+.fourth_page,
 .sixth_page {
   background-attachment: scroll;
 }
