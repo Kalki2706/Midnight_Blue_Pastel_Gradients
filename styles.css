@@ -6,7 +6,18 @@ body::-webkit-scrollbar {
   display: none;
 }
 
-.home_page {
+@font-face {
+  font-family: "Open Sauce Sans";
+  src: url(OpenSauceSans-Black.ttf);
+}
+
+.home_page,
+.first_page,
+.second_page,
+.third_page,
+.fourth_page,
+.fifth_page,
+.sixth_page {
   margin: 0px;
   padding: 0px;
   width: 1920px;
@@ -14,4 +25,31 @@ body::-webkit-scrollbar {
   width: 100%;
   background-color: rgb(6, 0, 46);
   background-attachment: fixed;
+}
+
+.first_page {
+  background-image: url(./images/bg_1.png);
+  background-attachment: scroll;
+}
+
+.second_page {
+  background-attachment: scroll;
+}
+
+.third_page {
+  background-image: url(./images/bg_2.png);
+  background-attachment: scroll;
+}
+
+.fourth_page {
+  background-attachment: scroll;
+}
+
+.fifth_page {
+  background-image: url(./images/bg_3.png);
+  background-attachment: scroll;
+}
+
+.sixth_page {
+  background-attachment: scroll;
 }
