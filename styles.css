@@ -167,10 +167,10 @@ a {
 }
 
 .para_box {
-  width: 600px;
-  height: 800px;
-  margin: 140px 100px;
+  width: 805px;
+  height: 805px;
+  margin: 140px 110px;
   background-color: rgb(157, 140, 255);
-  /* padding: 800px 300px; */
-  /* background-color: rgb(157, 140, 255); */
+  border: none;
+  border-radius: 20px;
 }
