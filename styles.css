@@ -7,8 +7,23 @@ body::-webkit-scrollbar {
 }
 
 @font-face {
-  font-family: "Open Sauce Sans";
+  font-family: "OpenSauceSans-Black";
   src: url(OpenSauceSans-Black.ttf);
+}
+
+@font-face {
+  font-family: "OpenSauceSans-Bold";
+  src: url(OpenSauceSans-Bold.ttf);
+}
+
+@font-face {
+  font-family: "OpenSauceSans-SemiBold";
+  src: url(OpenSauceSans-SemiBold.ttf);
+}
+
+@font-face {
+  font-family: "OpenSauceSans-Medium";
+  src: url(OpenSauceSans-Medium.ttf);
 }
 
 .home_page,
@@ -52,10 +67,23 @@ body::-webkit-scrollbar {
 }
 
 .company_name {
-  /* font-family: "Open Sauce Sans-Black"; */
+  font-family: "OpenSauceSans-Bold";
+  letter-spacing: 5.5px;
   display: flex;
   padding: 80px 0;
-  font-size: 25px;
+  font-size: 30px;
   color: rgb(255, 255, 255);
   margin: 0px 80px;
+}
+
+h1 {
+  font-family: "OpenSauceSans-Medium";
+  color: rgb(255, 255, 255);
+  font-size: 100px;
+  font-weight: 100;
+  text-align: center;
+  display: flex;
+  margin: 200px 260px 0 375px;
+  width: 1200px;
+  letter-spacing: 8px;
 }
