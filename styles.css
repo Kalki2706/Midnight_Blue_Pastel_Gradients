@@ -157,7 +157,8 @@ a {
   color: rgb(235, 16, 187);
 }
 
-.horizontal_rule {
+.horizontal_rule,
+.main_rule {
   width: 100%px;
   height: 8px;
   margin: 105px 0;
@@ -204,4 +205,8 @@ a {
   line-height: 50px;
   font-size: 35px;
   width: 659px;
+}
+
+.main_rule {
+  margin: 0;
 }
