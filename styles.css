@@ -48,6 +48,9 @@ body::-webkit-scrollbar {
   width: 1920px;
   height: 1080px;
   width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
   background-color: rgb(6, 0, 46);
   background-attachment: fixed;
 }
@@ -68,9 +71,6 @@ a {
 .first_page,
 .third_page,
 .fifth_page {
-  background-repeat: no-repeat;
-  background-size: cover;
-  overflow: hidden;
   background-attachment: scroll;
 }
 
@@ -209,5 +209,16 @@ a {
 }
 
 .main_rule {
+  margin: 0;
+}
+
+.sec_page_heading_div {
+  margin: 100px 110px;
+}
+
+.sec_page_heading {
+  font-family: "OpenSauceSans-Light";
+  color: rgb(255, 255, 255);
+  font-size: 100px;
   margin: 0;
 }
