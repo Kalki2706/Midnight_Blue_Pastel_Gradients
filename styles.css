@@ -31,6 +31,11 @@ body::-webkit-scrollbar {
   src: url(OpenSauceSans-Light.ttf);
 }
 
+@font-face {
+  font-family: "OpenSauceSans-Regular";
+  src: url(OpenSauceSans-Regular.ttf);
+}
+
 .home_page,
 .first_page,
 .second_page,
@@ -176,22 +181,27 @@ a {
 }
 
 .first_page_heading {
-  font-family: "OpenSauceSans-Light";
+  font-family: "OpenSauceSans-Regular";
   text-align: center;
-  font-size: 60px;
-  font-weight: 600;
-  letter-spacing: 2px;
+  font-size: 56px;
+  font-weight: 500;
+  letter-spacing: 1px;
 }
 
 .heading_one {
   padding: 80px 0 0 0;
-  margin: 0 0 -10px -120px;
+  margin: 0 0 -5px -90px;
 }
 
 .heading_two {
-  margin: 0 0 0px -50px;
+  margin: 0 0 50px -50px;
 }
 
 .first_page_para {
-  font-size: 30px;
+  font-family: "OpenSauceSans-Regular";
+  padding: 0 20px;
+  margin: 0 0 0 60px;
+  line-height: 50px;
+  font-size: 35px;
+  width: 659px;
 }
