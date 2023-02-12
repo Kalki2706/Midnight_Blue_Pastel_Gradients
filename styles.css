@@ -151,3 +151,17 @@ a {
 .link_hover:hover {
   color: rgb(235, 16, 187);
 }
+
+.horizontal_rule {
+  width: 100%px;
+  height: 8px;
+  margin: 105px 0;
+  border: none;
+  background: rgb(255, 209, 0);
+  background: linear-gradient(
+    90deg,
+    rgba(255, 209, 0, 1) 0%,
+    rgba(255, 2, 110, 1) 50%,
+    rgba(255, 209, 0, 1) 100%
+  );
+}
