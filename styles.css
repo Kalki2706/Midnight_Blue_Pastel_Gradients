@@ -47,6 +47,19 @@ body::-webkit-scrollbar {
   background-attachment: fixed;
 }
 
+.company_name,
+.heading,
+a {
+  color: rgb(255, 255, 255);
+}
+
+.company_name,
+.heading,
+.learn_more {
+  font-family: "OpenSauceSans-Bold";
+  letter-spacing: 8px;
+}
+
 .first_page,
 .third_page,
 .fifth_page {
@@ -75,12 +88,9 @@ body::-webkit-scrollbar {
 }
 
 .company_name {
-  font-family: "OpenSauceSans-Bold";
-  letter-spacing: 8px;
   display: flex;
   padding: 80px 0;
   font-size: 30px;
-  color: rgb(255, 255, 255);
   margin: 0px 80px;
 }
 
@@ -92,7 +102,6 @@ body::-webkit-scrollbar {
 .first_heading,
 .second_heading {
   font-family: "OpenSauceSans-Light";
-  color: rgb(255, 255, 255);
   font-size: 110px;
   font-weight: 700;
   letter-spacing: 12px;
@@ -115,4 +124,30 @@ body::-webkit-scrollbar {
   margin: -50px 0;
   width: 920px;
   height: 760px;
+}
+
+.learn_more,
+.logo_name {
+  text-align: center;
+  margin: 80px -500px 0 1000px;
+}
+
+.logo_name {
+  margin: -36px 0px 0 1760px;
+}
+
+a {
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.logo {
+  width: 45px;
+  height: 45px;
+  margin-left: -5px;
+  cursor: pointer;
+}
+
+.link_hover:hover {
+  color: rgb(235, 16, 187);
 }
