@@ -82,8 +82,13 @@ h1 {
   font-size: 100px;
   font-weight: 100;
   text-align: center;
-  display: flex;
+  /* display: flex; */
   margin: 200px 260px 0 375px;
   width: 1200px;
-  letter-spacing: 8px;
+  letter-spacing: 10px;
+}
+
+.ring_image {
+  text-align: center;
+  margin: -500px 0;
 }
