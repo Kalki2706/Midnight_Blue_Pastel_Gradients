@@ -224,22 +224,55 @@ a {
 }
 
 .about_one {
+  background: linear-gradient(
+    135deg,
+    rgba(125, 210, 251, 1) 30%,
+    rgba(199, 171, 251, 1) 77%
+  );
   width: 490px;
   height: 499px;
   margin: 160px 0 -5px 370px;
-  /* display: flex; */
+  display: flex;
+  border: none;
+  border-radius: 15px;
 }
 
 .about_two {
+  background: linear-gradient(
+    135deg,
+    rgba(211, 186, 255, 1) 0%,
+    rgba(136, 113, 185, 1) 60%,
+    rgba(125, 210, 251, 1) 91%
+  );
   width: 490px;
   height: 501px;
   margin: -500px 0 500px 855px;
   display: flex;
+  border: none;
+  border-radius: 15px;
 }
 
 .about_three {
+  background: rgb(125, 210, 251);
+  background: linear-gradient(
+    135deg,
+    rgba(125, 210, 251, 1) 0%,
+    rgba(193, 182, 255, 1) 14%,
+    rgba(136, 113, 185, 1) 53%,
+    rgba(198, 170, 246, 1) 71%,
+    rgba(220, 200, 255, 1) 92%
+  );
   width: 490px;
   height: 497px;
   display: flex;
   margin: -1000px 0 1000px 1340px;
+}
+
+.about_one_div {
+}
+
+.about_two_div {
+}
+
+.about_three_div {
 }
