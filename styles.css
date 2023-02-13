@@ -269,11 +269,23 @@ a {
   border-radius: 15px;
 }
 
-.about_one_div {
-}
-
-.about_two_div {
-}
-
+.about_one_div,
+.about_two_div,
 .about_three_div {
+  font-size: 50px;
+  font-family: "OpenSauceSans-Regular";
+  display: flex;
+  margin-bottom: 0;
+}
+
+.about_one_subdiv,
+.about_two_subdiv,
+.about_three_subdiv {
+  display: flex;
+  font-size: 35px;
+}
+
+.about_one_subdiv {
+  width: 400px;
+  margin: 300px 0px 0px -530px;
 }
