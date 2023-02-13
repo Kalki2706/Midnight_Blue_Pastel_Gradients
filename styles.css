@@ -213,7 +213,7 @@ a {
 }
 
 .sec_page_heading_div {
-  margin: 100px 110px;
+  margin: 100px 80px;
 }
 
 .sec_page_heading {
@@ -223,7 +223,25 @@ a {
   margin: 0;
 }
 
-.about {
-  width: 50px;
-  height: 50px;
+.about_one {
+  width: 490px;
+  height: 499px;
+}
+
+.about_one {
+  margin: 160px 0 -5px 370px;
+}
+
+.about_two {
+  width: 490px;
+  height: 501px;
+  margin: -500px 0 500px 855px;
+  display: flex;
+}
+
+.about_three {
+  width: 490px;
+  height: 497px;
+  display: flex;
+  margin: -1000px 0 1000px 1340px;
 }
