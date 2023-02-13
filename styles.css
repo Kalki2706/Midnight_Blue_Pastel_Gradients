@@ -226,10 +226,8 @@ a {
 .about_one {
   width: 490px;
   height: 499px;
-}
-
-.about_one {
   margin: 160px 0 -5px 370px;
+  /* display: flex; */
 }
 
 .about_two {
