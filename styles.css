@@ -246,7 +246,7 @@ a {
     rgba(158, 145, 227, 1) 53%,
     rgba(220, 200, 255, 1) 94%
   );
-  width: 470px;
+  width: 460px;
   height: 501px;
   margin: -430px 0 0px 875px;
   display: flex;
@@ -263,7 +263,7 @@ a {
     rgba(209, 182, 255, 1) 73%,
     rgba(220, 200, 255, 1) 94%
   );
-  width: 470px;
+  width: 460px;
   height: 502px;
   display: flex;
   margin: -503px 0 100px 1355px;
@@ -298,6 +298,7 @@ a {
   width: 450px;
   margin: 300px 0px 0px -350px;
 }
+
 .about_two_div {
   width: 430px;
   margin: 45px 0px 0px 30px;
@@ -306,4 +307,15 @@ a {
 .about_two_subdiv {
   width: 450px;
   margin: 300px 0px 0px -420px;
+}
+
+.about_three_div {
+  width: 430px;
+  margin: 45px 0px 0px 30px;
+  position: absolute;
+}
+
+.about_three_subdiv {
+  width: 450px;
+  margin: 330px 0px 0px 25px;
 }
