@@ -288,7 +288,12 @@ a {
   font-size: 35px;
 }
 
+.about_one_div {
+  width: 360px;
+  margin: 50px 0 0px 30px;
+}
+
 .about_one_subdiv {
   width: 400px;
-  margin: 300px 0px 0px -530px;
+  margin: 300px 0px 0px -360px;
 }
