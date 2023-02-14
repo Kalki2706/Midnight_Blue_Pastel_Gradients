@@ -284,16 +284,26 @@ a {
 .about_one_subdiv,
 .about_two_subdiv,
 .about_three_subdiv {
+  font-family: "OpenSauceSans-Light";
   display: flex;
-  font-size: 35px;
+  font-size: 30px;
 }
 
 .about_one_div {
   width: 360px;
-  margin: 50px 0 0px 30px;
+  margin: 45px 0px 0px 30px;
 }
 
 .about_one_subdiv {
-  width: 400px;
-  margin: 300px 0px 0px -360px;
+  width: 450px;
+  margin: 300px 0px 0px -350px;
+}
+.about_two_div {
+  width: 430px;
+  margin: 45px 0px 0px 30px;
+}
+
+.about_two_subdiv {
+  width: 450px;
+  margin: 300px 0px 0px -420px;
 }
