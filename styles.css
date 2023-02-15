@@ -338,3 +338,11 @@ a {
   height: 700px;
   margin: -10px 52px;
 }
+
+.done_one,
+.done_two,
+.done_three {
+  background-color: rgb(6, 0, 46);
+  width: 200px;
+  height: 200px;
+}
