@@ -343,6 +343,18 @@ a {
 .done_two,
 .done_three {
   background-color: rgb(6, 0, 46);
-  width: 200px;
-  height: 200px;
+  width: 460px;
+  height: 340px;
+}
+
+.done_one {
+  margin: -700px 0px 0px 1360px;
+  border: none;
+  border-radius: 20px;
+}
+
+.done_two {
+}
+
+.done_three {
 }
