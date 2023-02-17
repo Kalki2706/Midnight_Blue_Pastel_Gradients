@@ -364,3 +364,18 @@ a {
   border: none;
   border-radius: 20px;
 }
+
+.done_logo {
+  width: 150px;
+  /* height: 100px; */
+}
+
+.fourth_page_para {
+  color: rgb(190, 176, 250);
+  text-align: center;
+  margin: 420px 0 400px 350px;
+  font-size: 55px;
+  font-family: "OpenSauceSans-Light";
+  width: 1260px;
+  line-height: 70px;
+}
