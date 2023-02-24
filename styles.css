@@ -365,9 +365,21 @@ a {
   border-radius: 20px;
 }
 
-.done_logo {
-  width: 150px;
-  /* height: 100px; */
+.done_logo_one {
+  margin: -18px 0 0 225px;
+  width: 280px;
+  height: 180px;
+}
+
+.done_logo_two,
+.done_logo_three {
+  margin: 10px 0 0 245px;
+  width: 245px;
+  height: 145px;
+}
+
+.done_logo_three {
+  margin-top: 0px;
 }
 
 .fourth_page_para {
@@ -378,4 +390,17 @@ a {
   font-family: "OpenSauceSans-Light";
   width: 1260px;
   line-height: 70px;
+}
+
+.num_served,
+.things_served {
+  font-family: "OpenSauceSans-Light";
+  color: rgb(255, 255, 255);
+  font-size: 60px;
+  margin: 10px 0 0px 30px;
+}
+
+.things_served {
+  line-height: 50px;
+  font-size: 30px;
 }
