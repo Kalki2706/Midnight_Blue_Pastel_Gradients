@@ -393,11 +393,16 @@ a {
 }
 
 .num_served,
-.things_served {
+.things_served,
+.num_served_three {
   font-family: "OpenSauceSans-Light";
   color: rgb(255, 255, 255);
   font-size: 60px;
   margin: 10px 0 0px 30px;
+}
+
+.num_served_three {
+  margin: 20px 0 0 30px;
 }
 
 .things_served {
