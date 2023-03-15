@@ -1,9 +1,20 @@
+@-moz-document url-prefix() {
+  /* Disable scrollbar Firefox */
+  html {
+    scrollbar-width: none;
+  }
+}
+
 body {
-  margin: 0px;
+  margin: 0; /* remove default margin */
+  scrollbar-width: none; /* Also needed to disable scrollbar Firefox */
+  -ms-overflow-style: none; /* Disable scrollbar IE 10+ */
+  overflow-y: scroll;
 }
 
 body::-webkit-scrollbar {
-  display: none;
+  width: 0px;
+  background: transparent; /* Disable scrollbar Chrome/Safari/Webkit */
 }
 
 @font-face {
@@ -382,16 +393,6 @@ a {
   margin-top: 0px;
 }
 
-.fourth_page_para {
-  color: rgb(190, 176, 250);
-  text-align: center;
-  margin: 420px 0 400px 350px;
-  font-size: 55px;
-  font-family: "OpenSauceSans-Light";
-  width: 1260px;
-  line-height: 70px;
-}
-
 .num_served,
 .things_served,
 .num_served_three {
@@ -408,4 +409,69 @@ a {
 .things_served {
   line-height: 50px;
   font-size: 30px;
+}
+
+.fourth_page_para {
+  color: rgb(190, 176, 250);
+  text-align: center;
+  margin: 200px 0 400px 350px;
+  font-size: 55px;
+  font-family: "OpenSauceSans-Regular";
+  width: 1260px;
+  line-height: 70px;
+}
+
+.design2,
+.design3 {
+  width: 170px;
+  height: 170px;
+  display: block;
+}
+
+.design1 {
+  width: 160px;
+  height: 160px;
+  margin: 110px 0 -100px 730px;
+}
+
+.design2 {
+  margin: -250px 0 0px 150px;
+}
+
+.design3 {
+  margin: -260px 0 0px 1620px;
+}
+
+.fifth_page_heading {
+  font-family: "OpenSauceSans-Regular";
+  color: rgb(0, 0, 0);
+  margin: 100px 100px;
+  font-size: 90px;
+  letter-spacing: 3px;
+}
+
+.box1,
+.box2,
+.box3 {
+  background-color: rgb(157, 140, 255);
+  width: 470px;
+  height: 650px;
+  display: block;
+  margin: 10px 420px;
+  border-radius: 18px;
+}
+
+.client1_img,
+.client2_img,
+.client3_img {
+  width: 150px;
+  height: 150px;
+}
+
+.box2 {
+  margin: -660px 0 0 910px;
+}
+
+.box3 {
+  margin: -650px 0 0 1400px;
 }
