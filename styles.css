@@ -464,8 +464,25 @@ a {
 .client1_img,
 .client2_img,
 .client3_img {
-  width: 150px;
-  height: 150px;
+  margin: 20px 0 0 300px;
+}
+
+.client1_img {
+  width: 175px;
+  height: 180px;
+  margin: 20px 0 0 300px;
+}
+
+.client2_img {
+  width: 165px;
+  height: 170px;
+  margin: 25px 0 0 315px;
+}
+
+.client3_img {
+  width: 152px;
+  height: 155px;
+  margin: 32px 0 0 300px;
 }
 
 .box2 {
@@ -474,4 +491,12 @@ a {
 
 .box3 {
   margin: -650px 0 0 1400px;
+}
+
+.client1,
+.client2,
+.client3 {
+  font-size: 50px;
+  font-family: "OpenSauceSans-Light";
+  width: 300px;
 }
